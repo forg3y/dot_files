@@ -10,7 +10,11 @@
 "
 " These options and commands enable some very useful features in Vim, that
 " no user should have to live without.
- 
+
+" Pathogen stuff
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
